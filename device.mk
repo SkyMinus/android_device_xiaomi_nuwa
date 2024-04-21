@@ -22,6 +22,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.fuxi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fuxi.rc \
 
+# Euicc
+PRODUCT_PACKAGES += \
+    XiaomiEuicc
+
 # Overlay
 PRODUCT_PACKAGES += \
     SettingsProviderResNuwa \
