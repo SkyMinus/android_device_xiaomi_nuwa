@@ -5,7 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworkResOverlaySocrates",
+    name: "SettingsOverlayNuwa",
     sdk_version: "current",
     vendor: true,
 }
