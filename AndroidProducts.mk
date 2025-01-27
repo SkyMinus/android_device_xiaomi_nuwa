@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_nuwa.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_nuwa-eng \
-    lineage_nuwa-user \
-    lineage_nuwa-userdebug
