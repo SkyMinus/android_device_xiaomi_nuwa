@@ -172,6 +172,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
 
+# IFAAService
+PRODUCT_PACKAGES += \
+    IFAAService
+
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.sm8550.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sm8550.rc \
