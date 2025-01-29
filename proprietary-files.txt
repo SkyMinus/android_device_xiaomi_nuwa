@@ -1987,6 +1987,7 @@ vendor/lib64/vendor.qti.hardware.qconfig@1.0.so
 
 # Media configs
 odm/etc/media_profiles_kalama.xml:vendor/etc/media_profiles_kalama.xml
+odm/etc/media_profiles_kalama.xml
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_c2_audio.xml
 vendor/etc/media_codecs_dolby_audio.xml
