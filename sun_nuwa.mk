@@ -12,9 +12,9 @@ $(call inherit-product, build/make/target/product/core_64_bit_only.mk)
 $(call inherit-product, device/xiaomi/nuwa/device.mk)
 
 # Inherit LineageOS configurations
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/sun/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_nuwa
+PRODUCT_NAME := sun_nuwa
 PRODUCT_DEVICE := nuwa
 PRODUCT_MODEL := 2210132C
 PRODUCT_BRAND := Xiaomi

@@ -23,3 +23,17 @@ install_symlink {
     installed_location: "lib/libqesdk2_0.so",
     symlink_target: "/dev/null",
 }
+
+prebuilt_hidl_interfaces {
+     name: "hidl_bgservice_interface",
+     interfaces: [
+         "vendor.xiaomi.hardware.bgservice@1.0::IBGService",
+     ],
+ }
+ 
+prebuilt_hidl_interfaces {
+     name: "hidl_quickcamera_interface",
+     interfaces: [
+         "vendor.xiaomi.hardware.quickcamera@1.0::IQuickCameraService",
+     ],
+ }

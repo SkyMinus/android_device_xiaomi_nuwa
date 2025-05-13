@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nuwa.mk
+    $(LOCAL_DIR)/sun_nuwa.mk
